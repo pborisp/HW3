@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
         // Задание №1
@@ -42,5 +44,28 @@ public class Main {
         } else if (age > 24) {
             System.out.println("Если возраст человека равен " + age + " - то человеку нужно ходить на работу.");
         }
+        System.out.println();
+
+        // Задача №3
+        System.out.println("Задача 3:");
+        int speedtest = 100;
+        if (speedtest > 60) {
+            System.out.println("Если скорость " + speedtest + " км/ч. Придется заплатить штраф.");
+        } else {
+            System.out.println("Если скорость " + speedtest + " км/ч. Можно ездить спокойно.");
+        }
+        System.out.println();
+
+        // Задача №5
+        System.out.println("Задача 5:");
+        age = 14;
+        if (age <=5) {
+            System.out.println("Если возраст ребенка равен " + age + " - то ему нельзя кататься на аттракционе.");
+        } else if (age > 5 && age < 14) {
+            System.out.println("Если возраст ребенка равен " + age + " - то ему можно кататься только в сопровождении взрослого. Без взрослого нет, то кататься нельзя");
+        } else {
+            System.out.println("Если возраст ребенка равен " + age + " - то ему можно кататься без сопровождения взрослого.");
+        }
+        System.out.println();
     }
 }
