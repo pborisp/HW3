@@ -29,5 +29,18 @@ public class Main {
             System.out.println("Если скорость " + speed + " км/ч. Можно ездить спокойно.");
         }
         System.out.println();
+
+        // Задача №4
+        System.out.println("Задача 4:");
+        age = 16;
+        if (age >=2 && age <= 6) {
+            System.out.println("Если возраст человека равен " + age + " - то ему нужно ходить в детский сад.");
+        } else if (age > 6 && age < 18) {
+            System.out.println("Если возраст человека равен " + age + " - то человеку нужно ходить в школу.");
+        } else if (age >= 18 && age <= 24) {
+            System.out.println("Если возраст человека равен " + age + " - то человеку нужно ходить в университет.");
+        } else if (age > 24) {
+            System.out.println("Если возраст человека равен " + age + " - то человеку нужно ходить на работу.");
+        }
     }
 }
